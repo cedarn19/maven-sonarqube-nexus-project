@@ -51,3 +51,12 @@ mvn clean package sonar:sonar deploy \
   -Dsonar.projectKey=JavaWebApp-Project3 \
   -Dsonar.host.url=http://44.203.4.255:9000 \
   -Dsonar.login=<sonarqube prject token>
+
+  ========================
+
+
+
+  mvn sonar:sonar \
+  -Dsonar.projectKey=javawebapp \
+  -Dsonar.host.url=http://3.208.25.236:9000 \
+  -Dsonar.login=531198f347254c7826244abe348baebffdd478d9
